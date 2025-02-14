@@ -21,8 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   const errFindImagesMessage = {
-    message:
-      'Sorry, there are no images matching <br> your search query. Please, try again!',
+    message: `Sorry, there are no images matching <br> your search query. Please, try again!`,
     messageColor: '#fff',
     backgroundColor: '#ef4040',
     position: 'topRight',
@@ -30,8 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
   };
 
   const owerMaxLengthInputMessg = {
-    message:
-      'Перевищено максимально допустиму кількість символів!<br> Допустимо 100 символів.',
+    message: `Перевищено максимально допустиму кількість символів!<br> Допустимо 100 символів.`,
     messageColor: '#fff',
     backgroundColor: '#ffa000',
     position: 'topRight',
@@ -110,4 +108,3 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   }
 });
-
